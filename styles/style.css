@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+:root {
+  --dark-01: #151414;
+  --color-primary: #f15b22;
+}
+/* common shared styles */
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+}
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+.title {
+  color: var(--dark-01, #151414);
+  font-size: 40px;
+  font-weight: 700;
+}
+.text {
+  color: var(--dark-02, #444343);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.btn {
+  border-radius: 5px;
+  border: none;
+  padding: 20px 25px;
+  color: var(--color-primary);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* header styles */
+.header {
+  background: url('../images/banner/banner1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top;
+  height: 90vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.header-content {
+  text-align: right;
+  width: 500px;
+  margin-right: 180px;
+}
+.header-btn {
+  color: white;
+  background-color: var(--color-primary);
+  margin-top: 30px;
+}
+
+/* failure section styles */
+.failure-section {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  margin-top: 100px;
+}
+.failure-section > img {
+  width: 450px;
+}
+.failure-content {
+  max-width: 400px;
+}
